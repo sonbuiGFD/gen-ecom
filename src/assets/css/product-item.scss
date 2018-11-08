@@ -1,0 +1,52 @@
+@import './variable.scss';
+
+// product item
+.product-item {
+  font-size: $font_size_base;
+  transition: all 0.2s linear;
+  margin-bottom: em(8);
+  padding-bottom: em(8);
+
+  &:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  &_img {
+    text-align: center;
+  }
+
+
+  &_title h5 {
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: $main_color;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding: 0 0.25em;
+
+    span {
+      display: block;
+      color: #000;
+    }
+  }
+
+  &_cat {
+    text-align: center;
+
+    p {
+      font-weight: normal;
+      line-height: em(13px);
+      font-size: em(14px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .product-item {
+    font-size: $font_size_sm;
+  }
+}

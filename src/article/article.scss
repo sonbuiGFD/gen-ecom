@@ -1,0 +1,138 @@
+@import "../assets/css/variable.scss";
+
+.article {
+  &-page {
+    font-size: $font_size_base;
+  }
+
+  // articel main info
+  &-info {
+    margin-bottom: em(32);
+
+    &_wrapper {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    &_title h1 {
+      font-family: $title;
+      line-height: 1.5;
+      font-size: em(48px);
+      color: $article_title;
+      margin-bottom: 16px;
+    }
+
+    &_author {
+      line-height: 1.5;
+      font-size: em(16px);
+      color: $article_author;
+      margin-bottom: 16px;
+    }
+
+    &_content {
+
+      ul,
+      ol,
+      li {
+        list-style: initial;
+      }
+    }
+
+    &_pagination {
+      text-align: center;
+      margin-top: 40px;
+
+      a {
+        font-size: em(24px);
+        text-align: right;
+        text-decoration-line: underline;
+        color: #42C1C7;
+        display: inline-block;
+        padding: 0 10px;
+      }
+
+      span {
+        width: 1px;
+        background: #4F4F4F;
+        display: inline-block;
+        height: 32px;
+        margin-bottom: -10px;
+      }
+    }
+  }
+
+  // article sidebar
+  &-sidebar {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: em(32);
+
+    &_block {
+      margin-bottom: em(24px);
+    }
+
+    &_title {
+      h3 {
+        background: $article_sidebar_title_bg;
+        color: $article_sidebar_title;
+        font-size: em(16px);
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 14px 24px;
+
+        &:hover {
+          color: $article_sidebar_title;
+          opacity: 0.8;
+        }
+      }
+    }
+
+    &_item {
+      a {
+        display: block;
+        font-weight: bold;
+        line-height: 1.4;
+        font-size: em(16px);
+
+        padding: 24px;
+        color: $article_sidebar_item;
+        border-bottom: 1px solid $article_sidebar_item_border;
+
+        &:hover {
+          color: $article_sidebar_item;
+          opacity: 0.8;
+        }
+      }
+
+      &:last-child {
+        a {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 991px) {
+  .article {
+    &-page {
+      font-size: $font_size_sm;
+    }
+
+    &-sidebar {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .article {
+    &-info {
+      &_title h1 {
+        font-size: em(32px);
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.category-page {
+  font-size: 16px; }
+
+.category-panel {
+  margin-bottom: 1em; }
+
+.category-breadcrumb {
+  margin-bottom: 3em; }
+
+.category-title h1 {
+  font-weight: bold;
+  line-height: 2em;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F17298;
+  margin-bottom: 1em; }
+
+.category_list {
+  margin-right: -8px !important;
+  margin-left: -8px !important; }
+  .category_list_item {
+    padding: 0 8px;
+    margin-bottom: 16px; }
+
+.category-pagination {
+  margin-bottom: 5em;
+  margin-top: 1.5em; }
+
+@media (max-width: 768px) {
+  .category-page {
+    font-size: 14px; }
+  .category-title h1 {
+    line-height: 1.5em;
+    margin-bottom: 1em; }
+  .category-breadcrumb {
+    margin-bottom: 1em; } }
+
+
+/*# sourceMappingURL=category.css.map*/

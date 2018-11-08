@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./home/home.scss"],"names":[],"mappings":"AAAA;AACA,kBAAkB;;AAElB;AACA,kBAAkB","file":"home.css","sourcesContent":[".test {\n  font-size: 5rem; }\n\n.test-nested .tesst {\n  display: inline; }\n"],"sourceRoot":""}

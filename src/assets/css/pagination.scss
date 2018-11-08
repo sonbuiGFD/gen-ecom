@@ -1,0 +1,45 @@
+@import './variable.scss';
+
+.fantasy-pagination {
+  text-align: center;
+  display: block;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  &_item {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: #F7F6F6;
+    display: inline-block;
+    padding: 4px;
+    margin: 0 8px;
+
+    a {
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $black;
+      cursor: pointer;
+
+
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &.active,
+    &:hover {
+      background: $main_color;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+}

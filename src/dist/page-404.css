@@ -1,0 +1,46 @@
+.page-404 .title-404 {
+  font-size: 100px;
+  line-height: 176px; }
+
+.page-404 .title-404,
+.page-404 .page-not-found {
+  color: #F27280;
+  font-family: "Pacifico";
+  font-style: regular; }
+
+.page-404 .page-not-found {
+  margin-bottom: 50px;
+  font-size: 56px;
+  line-height: 98px; }
+
+.page-404 .btn-home {
+  padding-top: 1.5em;
+  padding-bottom: 4.5em; }
+  .page-404 .btn-home a {
+    width: 160px;
+    line-height: 40px;
+    font-size: 16px; }
+
+@media (max-width: 768px) {
+  .page-404 .title-404 {
+    font-size: 80px;
+    line-height: 156px; }
+  .page-404 .title-404,
+  .page-404 .page-not-found {
+    color: #F27280;
+    font-family: "Pacifico";
+    font-style: regular; }
+  .page-404 .page-not-found {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 78px; }
+  .page-404 .btn-home {
+    padding-top: 1.5em;
+    padding-bottom: 3.5em; }
+    .page-404 .btn-home a {
+      width: 160px;
+      line-height: 40px;
+      font-size: 14px; } }
+
+
+/*# sourceMappingURL=page-404.css.map*/
