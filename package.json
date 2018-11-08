@@ -1,7 +1,7 @@
 {
-  "name": "gen-pack",
+  "name": "gen-ecom",
   "version": "1.0.0",
-  "description": "gen-pack",
+  "description": "gen-ecom",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack --watch --progress",
     "build": "cross-env NODE_ENV=production webpack"
