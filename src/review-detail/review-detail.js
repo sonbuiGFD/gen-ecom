@@ -1,1 +1,0 @@
-import './review-detail.scss';
