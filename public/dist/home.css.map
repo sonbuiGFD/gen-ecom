@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack:///./src/home.scss"],"names":[],"mappings":"AAAA;AACA,cAAc","file":"home.css","sourcesContent":["#home {\n  color: blue; }\n"],"sourceRoot":""}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"home.css","sourcesContent":[],"sourceRoot":""}

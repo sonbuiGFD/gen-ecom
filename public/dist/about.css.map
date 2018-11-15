@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/about.scss"],"names":[],"mappings":"AAAA;AACA,cAAc","file":"about.css","sourcesContent":["#about {\n  color: blue; }\n"],"sourceRoot":""}
