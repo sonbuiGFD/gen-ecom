@@ -147,24 +147,24 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/home.js","common"]);
+/******/ 	deferredModules.push(["./src/pages/home/home.js","common"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/home.js":
-/*!*********************!*\
-  !*** ./src/home.js ***!
-  \*********************/
+/***/ "./src/pages/home/home.js":
+/*!********************************!*\
+  !*** ./src/pages/home/home.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {
 
-__webpack_require__(/*! ./home.scss */ "./src/home.scss");
+__webpack_require__(/*! ./home.scss */ "./src/pages/home/home.scss");
 
 //***************************************
 //      Main program
@@ -176,10 +176,10 @@ $(document).ready(function (event) {
 
 /***/ }),
 
-/***/ "./src/home.scss":
-/*!***********************!*\
-  !*** ./src/home.scss ***!
-  \***********************/
+/***/ "./src/pages/home/home.scss":
+/*!**********************************!*\
+  !*** ./src/pages/home/home.scss ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

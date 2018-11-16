@@ -27,7 +27,7 @@ const isDev = env === 'production' ? false : true;
 module.exports = {
   entry: {
     global: './src/global.js',
-    home: './src/home.js',
+    home: './src/pages/home/home.js',
   },
   output: {
     path: path.resolve(__dirname, 'public/dist/'),
